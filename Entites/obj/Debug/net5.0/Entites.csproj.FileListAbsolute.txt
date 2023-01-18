@@ -1,0 +1,12 @@
+C:\Users\Omer\source\repos\HastaKabulSistemi\Entites\bin\Debug\net5.0\Entites.deps.json
+C:\Users\Omer\source\repos\HastaKabulSistemi\Entites\bin\Debug\net5.0\Entites.dll
+C:\Users\Omer\source\repos\HastaKabulSistemi\Entites\bin\Debug\net5.0\ref\Entites.dll
+C:\Users\Omer\source\repos\HastaKabulSistemi\Entites\bin\Debug\net5.0\Entites.pdb
+C:\Users\Omer\source\repos\HastaKabulSistemi\Entites\obj\Debug\net5.0\Entites.csproj.AssemblyReference.cache
+C:\Users\Omer\source\repos\HastaKabulSistemi\Entites\obj\Debug\net5.0\Entites.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omer\source\repos\HastaKabulSistemi\Entites\obj\Debug\net5.0\Entites.AssemblyInfoInputs.cache
+C:\Users\Omer\source\repos\HastaKabulSistemi\Entites\obj\Debug\net5.0\Entites.AssemblyInfo.cs
+C:\Users\Omer\source\repos\HastaKabulSistemi\Entites\obj\Debug\net5.0\Entites.csproj.CoreCompileInputs.cache
+C:\Users\Omer\source\repos\HastaKabulSistemi\Entites\obj\Debug\net5.0\Entites.dll
+C:\Users\Omer\source\repos\HastaKabulSistemi\Entites\obj\Debug\net5.0\ref\Entites.dll
+C:\Users\Omer\source\repos\HastaKabulSistemi\Entites\obj\Debug\net5.0\Entites.pdb
