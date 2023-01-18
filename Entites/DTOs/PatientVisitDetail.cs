@@ -12,6 +12,7 @@ namespace Entites.DTOs
         public string LastName { get; set; }
         public string Adress { get; set; }
         public string PhoneNumber { get; set; }
-
+        public string DoctorName { get; set; }
+        public string DepartmentName { get; set; }
     }
 }

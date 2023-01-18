@@ -18,5 +18,6 @@ namespace DataAccess.Concrete.EntityFramework
         {
             optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-OMER;Initial Catalog=HospitalDb;Integrated Security=SSPI;");
         }
+
     }
 }

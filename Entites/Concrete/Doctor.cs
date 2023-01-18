@@ -13,5 +13,6 @@ namespace Entites.Concrete
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public Department Department { get; set; }
+        public List<PatientInformation> patientInformations { get; set; }
     }
 }

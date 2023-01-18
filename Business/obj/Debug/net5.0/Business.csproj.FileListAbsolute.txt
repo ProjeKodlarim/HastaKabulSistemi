@@ -10,3 +10,8 @@ C:\Users\Omer\source\repos\HastaKabulSistemi\Business\obj\Debug\net5.0\Business.
 C:\Users\Omer\source\repos\HastaKabulSistemi\Business\obj\Debug\net5.0\Business.dll
 C:\Users\Omer\source\repos\HastaKabulSistemi\Business\obj\Debug\net5.0\ref\Business.dll
 C:\Users\Omer\source\repos\HastaKabulSistemi\Business\obj\Debug\net5.0\Business.pdb
+C:\Users\Omer\source\repos\HastaKabulSistemi\Business\bin\Debug\net5.0\DataAccess.dll
+C:\Users\Omer\source\repos\HastaKabulSistemi\Business\bin\Debug\net5.0\Entites.dll
+C:\Users\Omer\source\repos\HastaKabulSistemi\Business\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\Omer\source\repos\HastaKabulSistemi\Business\bin\Debug\net5.0\Entites.pdb
+C:\Users\Omer\source\repos\HastaKabulSistemi\Business\obj\Debug\net5.0\Business.csproj.CopyComplete

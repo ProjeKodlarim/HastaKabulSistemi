@@ -1,4 +1,5 @@
-﻿using DataAccess.EntityFramework;
+﻿using DataAccess.Abstract;
+using DataAccess.EntityFramework;
 using Entites.Concrete;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfDoctorDal:EfEntityRepositoryBase<Doctor,HKContext> 
+    public class EfDoctorDal:EfEntityRepositoryBase<Doctor,HKContext> ,IDoctorDal
     {
     }
 }

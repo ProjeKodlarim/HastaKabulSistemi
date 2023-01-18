@@ -56,3 +56,5 @@ C:\Users\Omer\source\repos\HastaKabulSistemi\WebAPI\bin\Debug\net5.0\DataAccess.
 C:\Users\Omer\source\repos\HastaKabulSistemi\WebAPI\bin\Debug\net5.0\Entites.dll
 C:\Users\Omer\source\repos\HastaKabulSistemi\WebAPI\bin\Debug\net5.0\DataAccess.pdb
 C:\Users\Omer\source\repos\HastaKabulSistemi\WebAPI\bin\Debug\net5.0\Entites.pdb
+C:\Users\Omer\source\repos\HastaKabulSistemi\WebAPI\bin\Debug\net5.0\Business.dll
+C:\Users\Omer\source\repos\HastaKabulSistemi\WebAPI\bin\Debug\net5.0\Business.pdb

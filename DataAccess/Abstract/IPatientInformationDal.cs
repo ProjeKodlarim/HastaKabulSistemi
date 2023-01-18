@@ -1,4 +1,5 @@
 ﻿using Entites.Concrete;
+using Entites.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,8 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abstract
 {
-    public interface IPatientInformation:IEntityRepository<PatientInformation>
+    public interface IPatientInformationDal:IEntityRepository<PatientInformation>
     {
+        List<PatientVisitDetail> GetPatientVisitDetail(string IdentyNumber);
     }
 }
