@@ -20,9 +20,11 @@ namespace Business.Concrete
             _patientInformationDal = patientInformationDal;
         }
 
-        public void Add(PatientInformation entity)
+        public bool Add(PatientInformation entity)
         {
-            _patientInformationDal.Add(entity);
+            entity.CreatedDate = DateTime.Now;
+             _patientInformationDal.Add(entity);
+            return true;
         }
 
         public void Delete(PatientInformation entity)

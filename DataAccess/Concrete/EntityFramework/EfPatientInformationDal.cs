@@ -19,17 +19,20 @@ namespace DataAccess.Concrete.EntityFramework
                 var result = from patient in context.PatientInformations
                              join doc in context.Doctors
                              on patient.DoctorId equals doc.Id
-                             join dep in context.Departments
-                             on doc.Id equals dep.Id
+                             //join dep in context.Departments
+                             //on doc.Id equals dep.DoctorId
                              where patient.IdentyNumber==IdentyNumber
                              select new PatientVisitDetail
                              {
+                                 Id = patient.Id,
+                                 IdentyNumber = patient.IdentyNumber,
                                  FirstName = patient.FirstName,
                                  LastName = patient.LastName,
                                  PhoneNumber = patient.PhoneNumber,
                                  Adress = patient.Adress,
-                                 DepartmentName = dep.Name,
-                                 DoctorName = doc.FirstName+" "+ doc.LastName
+                                 DepartmentName = doc.Department.Name,
+                                 DoctorName = doc.FirstName+" "+ doc.LastName,
+                                 CreatedDate = patient.CreatedDate
                              };
                 return result.ToList();
             }

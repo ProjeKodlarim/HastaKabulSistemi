@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Entites.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -24,6 +25,17 @@ namespace WebAPI.Controllers
         {
             var result = _departmentService.GetAll();
             if (result != null)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+        [HttpPost("add")]
+        public IActionResult Add(Department department)
+        {
+
+            var result = _departmentService.Add(department);
+            if (result)
             {
                 return Ok(result);
             }

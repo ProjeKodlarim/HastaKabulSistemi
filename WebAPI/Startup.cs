@@ -37,6 +37,7 @@ namespace WebAPI
             services.AddSingleton<IDoctorDal, EfDoctorDal>();
             services.AddSingleton<IDoctorService, DoctorManager>();
             services.AddControllers();
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,6 +47,7 @@ namespace WebAPI
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseCors(builder => builder.WithOrigins("http://localhost:3000").AllowAnyHeader());
 
             app.UseRouting();
 

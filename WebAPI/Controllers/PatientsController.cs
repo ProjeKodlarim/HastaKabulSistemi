@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Entites.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -29,6 +30,18 @@ namespace WebAPI.Controllers
                 return Ok(patient);
             }
             return BadRequest("Sonuc yok");
+        }
+
+        [HttpPost("add")]
+        public IActionResult Add(PatientInformation patientInformation)
+        {
+
+            var result = _patientService.Add(patientInformation);
+            if (result)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
         }
     }
 }

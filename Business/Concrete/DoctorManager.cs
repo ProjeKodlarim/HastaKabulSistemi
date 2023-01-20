@@ -19,6 +19,12 @@ namespace Business.Concrete
             _doctorDal = doctorDal;
         }
 
+        public bool Add(Doctor doctor)
+        {
+            _doctorDal.Add(doctor);
+            return true;
+        }
+
         public List<Doctor> GetAll(Expression<Func<PatientInformation, bool>> filter = null)
         {
             var result = _doctorDal.GetAll();

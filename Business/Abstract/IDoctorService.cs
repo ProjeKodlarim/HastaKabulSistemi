@@ -11,6 +11,7 @@ namespace Business.Abstract
     public interface IDoctorService
     {
         List<Doctor> GetAll(Expression<Func<PatientInformation, bool>> filter = null);
+        bool Add(Doctor doctor);
 
     }
 }

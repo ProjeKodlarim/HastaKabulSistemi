@@ -19,6 +19,12 @@ namespace Business.Concrete
             _departmentDal = departmentDal;
         }
 
+        public bool Add(Department department)
+        {
+            _departmentDal.Add(department);
+            return true;
+        }
+
         public List<Department> GetAll(Expression<Func<PatientInformation, bool>> filter = null)
         {
             var result = _departmentDal.GetAll();

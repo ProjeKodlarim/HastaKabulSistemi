@@ -1,4 +1,5 @@
-﻿using Entites.Concrete;
+﻿using Business.Results;
+using Entites.Concrete;
 using Entites.DTOs;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,7 @@ namespace Business.Abstract
     {
         List<PatientInformation> GetAll(Expression<Func<PatientInformation, bool>> filter = null);
         PatientInformation Get(Expression<Func<PatientInformation, bool>> filter);
-        void Add(PatientInformation entity);
+        bool Add(PatientInformation entity);
         void Delete(PatientInformation entity);
         void Update(PatientInformation entity);
         List<PatientVisitDetail> GetPatientVisitDetail(string identyNumber);
